@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If Xenia contributes to your research, please cite the Xenia Paper 1 preprint and the Xing et al. 2023 atmospheric-escape paper."
+title: Xenia
+type: software
+authors:
+  - family-names: Xing
+    given-names: Lei
+repository-code: "https://github.com/YFG-tec/xenia"
+abstract: "A table-driven multi-fluid hydrodynamics framework with pressure-only quasi-neutral electron support, source IR and analytic Jacobians, implicit stiff-source solves, radial radiation scanning, and Kokkos Serial/OpenMP/CUDA builds."
+keywords:
+  - hydrodynamics
+  - multi-fluid
+  - planetary atmospheres
+  - atmospheric escape
+  - numerical methods
+  - Kokkos
+license: GPL-2.0-only
+version: 0.1.1-paper.1

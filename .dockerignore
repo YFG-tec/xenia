@@ -1,0 +1,8 @@
+.git
+codes
+papers
+**/*.o
+SSH_220804/pluto_xmf
+SSH_220804/pluto_xmf_*
+examples/**/output
+tests/output

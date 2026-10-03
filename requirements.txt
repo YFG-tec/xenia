@@ -1,0 +1,12 @@
+# Python env for the repo-root .venv.
+# This is the maintained list: first-party imports only, not `pip freeze`.
+# C kernel is not here — after this file, `pip install .` (or scripts/sync_xmf.py).
+#
+# When src/ / tests/ / examples/ / utils/ grow a new third-party import,
+# add a line here and keep pyproject.toml in sync
+# ([project.dependencies] for the xmf package, [project.optional-dependencies]
+# for tests / plots).
+
+numpy>=1.24
+pytest>=8.0
+matplotlib>=3.8
